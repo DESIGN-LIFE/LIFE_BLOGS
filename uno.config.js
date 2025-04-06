@@ -68,7 +68,9 @@ export default defineConfig({
     }),
   ],
   theme: {
-    colors: { ...colorsLight, shadow: '#0000000A' },
+    // TODO: 背面格子颜色
+    // colors: { ...colorsLight, shadow: '#0000000A' },
+    colors: { ...colorsLight },
     fontFamily: fonts,
   },
   shortcuts: [
