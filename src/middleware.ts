@@ -1,5 +1,5 @@
 import { defineMiddleware } from 'astro:middleware'
-import { themeConfig } from '~/.config'
+import { themeConfig } from '~/config'
 import { LANGUAGES } from '~/i18n.ts'
 
 export const onRequest = defineMiddleware(async (context, next) => {

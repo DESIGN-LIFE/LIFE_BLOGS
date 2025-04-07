@@ -1,17 +1,20 @@
-import type { UserConfig } from '~/types'
+import type { ThemeConfig } from '~/types'
 
-export const userConfig: Partial<UserConfig> = {
+// This is the default configuration for the template, please do not modify it directly.
+// You can override this configuration in the `.config/user.ts` file.
+
+export const defaultConfig: ThemeConfig = {
   site: {
-    title: '人生几槐',
-    subtitle: 'Prose Essays',
-    author: 'Wave',
-    description: '记录自我的所思所想',
-    website: 'https://weiya.design',
-    pageSize: 10,
+    title: '活版印字',
+    subtitle: 'Typography',
+    author: 'Moeyua',
+    description: 'Rediscory the beauty of typography',
+    website: 'https://astro-theme-typography.vercel.app/',
+    pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/VyaWave',
+        href: 'https://github.com/moeyua/astro-theme-typography',
       },
       {
         name: 'rss',
@@ -19,7 +22,11 @@ export const userConfig: Partial<UserConfig> = {
       },
       {
         name: 'twitter',
-        href: 'https://x.com/Ayameng',
+        href: 'https://github.com/moeyua/astro-theme-typography',
+      },
+      {
+        name: 'mastodon',
+        href: 'https://github.com/moeyua/astro-theme-typography',
       },
     ],
     navLinks: [
@@ -65,7 +72,7 @@ export const userConfig: Partial<UserConfig> = {
     },
   },
   seo: {
-    twitter: '@Ayameng',
+    twitter: '@moeyua13',
     meta: [],
     link: [],
   },

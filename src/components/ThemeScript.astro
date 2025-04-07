@@ -1,11 +1,11 @@
 ---
-import { themeConfig } from "~/.config";
+import { themeConfig } from "~/config";
 
 const theme = themeConfig.appearance.theme;
 ---
 
 <script is:inline define:vars={{ theme }}>
-  function updateTheme(theme) {
+  function updateTheme(theme: 'light' | 'dark' | 'system') {
     // Check if theme is system
     if (theme === "system") {
       // Check OS preference
