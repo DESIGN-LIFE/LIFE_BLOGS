@@ -5,7 +5,7 @@ const theme = themeConfig.appearance.theme;
 ---
 
 <script is:inline define:vars={{ theme }}>
-  function updateTheme(theme: 'light' | 'dark' | 'system') {
+  function updateTheme(theme) {
     // Check if theme is system
     if (theme === "system") {
       // Check OS preference
