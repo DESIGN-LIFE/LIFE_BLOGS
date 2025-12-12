@@ -9,7 +9,8 @@ html {
   --at-apply: 'bg-background c-primary font-ui text-shadow-color-shadow';
 
   text-shadow: 1px 1px 1px var(--uno-colors-shadow);
-  background-size: 7px 7px;
+  /* 背景网格 */
+  background-size: 36px 36px;
   background-image: linear-gradient(to right, var(--uno-colors-shadow) 1px, transparent 1px),
     linear-gradient(to bottom, var(--uno-colors-shadow) 1px, transparent 1px);
 }
